@@ -139,5 +139,75 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+    padding: 0px 120px 80px 120px;
 }
 
+.testimonial p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 100px 0px 0px 0px;
+}
+
+.testimonial h2 {
+    margin: 0px;
+    padding-right: 20px;
+    margin-left: auto;
+}
+
+
+/* CALL-TO-ACTION STYLING */
+.call {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 80px 120px 80px 120px;
+    padding: 30px 80px 30px 80px;
+    gap: 80px;
+}
+
+.action-text {
+    color: #E5E7EB;
+}
+
+.action-text p, 
+.action-text h3 {
+    margin: 0px;
+}
+
+.action-text h3 {
+    font-weight: bolder;
+}
+
+.call a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.call button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-top: 8px;
+    padding: 0px 50px 0px 50px;
+}
+
+/* FOOTER SECTION STYLING */
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+}
